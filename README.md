@@ -1,18 +1,59 @@
-## Getting Started
+# *Universidad Politécnica Salesiana*
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Práctica 1: Algoritmos de Ordenamiento
 
-## Folder Structure
+*Asignatura:* Estructura de Datos 
+*Docente:* Ing. [cite_start]Pablo Torre [cite: 107]
+*Estudiante:* [AQUÍ VA TU NOMBRE COMPLETO]
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Capturas de la práctica
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- ### *Menú con los métodos*
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+![alt text](assets/menu.png)
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- ### *Método Selección*
+
+#### Ascendente
+
+![alt text](assets/metodoSeleccionAsd.png)
+
+#### Descendente
+
+![alt text](assets/metodoSeleccionDes.png)
+
+---
+
+- ### *Método Inserción*
+
+#### Ascendente
+
+![alt text](assets/metodoInsercionAsd.png)
+
+#### Descendente
+
+![alt text](assets/metodoInsercionDes.png)
+
+---
+
+- ### *Método Burbuja*
+
+#### Ascendente
+
+![alt text](assets/metodoBurbujaAsd.png)
+
+#### Descendente
+
+![alt text](assets/metodoBurbujaDes.png)
+
+---
+
+## Conclusion 
+
+Al finalizar esta práctica se implementaron exitosamente los métodos de ordenamiento Selección, Inserción y Burbuja Mejorado.
+
+Hubo una mejor comprensión en los métodos, a la hora de implementar los pasos y al momento de programarlos, pues con los pasos se logra visualizar como funciona y trabaja cada método acorde al arreglo que se ingrese.

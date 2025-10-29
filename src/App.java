@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         View view = new View();
 
-        int[] numeros = new int[] {1, 3, -2, 9, 3};
+        int[] numeros = new int[] { 19, 24, -19, -28, 5, 30, -12, 34, -9, 52, 0, 45 }; 
 
         while (true) {
             view.ShowMenu();
@@ -40,6 +40,11 @@ public class App {
 
                 case 3:
                     System.out.println("\tMetodo Burbuja");
+
+                    MetodoBurbujaMejorado metodoBurbujaMejorado = new MetodoBurbujaMejorado();
+                    metodoBurbujaMejorado.sort(numeros, ordenOpt, pasosOpt);
+
+                    view.printArray(numeros);
                     break;
 
                 case 4:
